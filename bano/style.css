@@ -13,11 +13,11 @@ p{
     color: grey;
 }
 .navbar{
-    width: 100%;
+    width: 90%;
     height: 80px;
     display: flex;
     flex-wrap: wrap;
-    gap: 200px;
+    justify-content: space-between;
 }
 .logo{
     display: flex;
@@ -29,10 +29,6 @@ p{
 }
 .logo{
     padding-top: 20px;
-}
-.voice{
-   display: flex;
-   align-items: center;
 }
 .logo6{
     width: 40px;
@@ -51,7 +47,9 @@ p{
     background-color: white;
     border: none;
 }
-
+.button00{
+    background-color: black;
+}
 .search{
     display: flex;
     gap: 10px;
@@ -83,17 +81,16 @@ border: grey;
     
    display: flex;
    align-items: center;
-   
-  
 }
 .prof{
     display: flex;
     gap: 10px;
     width: 100px;
-    border: 3px solid blue;
+    border: 3px solid white;
     border-radius: 20px;
     color: blue;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
@@ -123,7 +120,7 @@ border: grey;
    display: flex;
 }
 .img{
-    width: 250px;
+    width: 240px;
     border-radius: 10px;
 }
 .trending{
@@ -138,7 +135,4 @@ border: grey;
 }
 .logo5{
     width: 20px;
-}
-@media screen (min-width: ) {
-    
 }
